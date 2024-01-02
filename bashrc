@@ -5,9 +5,9 @@ alias cdd='cd ..'
 alias cddd='cd ../..'
 alias cdddd='cd ../../..'
 
-# english international keyboard
+# english international keyboard (linux only)
 setxkbmap -layout us -variant altgr-intl
-# Swap control and caps lock keys
+# Swap control and caps lock keys (linux only)
 setxkbmap -option ctrl:swapcaps
 
 # GCC
