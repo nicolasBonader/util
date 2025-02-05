@@ -1,0 +1,10 @@
+{
+    "window.commandCenter": 1,
+    "workbench.colorTheme": "Darcula Pycharm with Light GUI",
+    "editor.fontSize": 13,
+    "editor.fontFamily": "'JetBrains Mono'",
+    "editor.letterSpacing": 0.4,
+    "extensions.ignoreRecommendations": true,
+    "workbench.tree.indent": 30,
+    "workbench.editor.enablePreview": false
+}
