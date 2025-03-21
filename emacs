@@ -66,8 +66,8 @@
 
 
 (defun my-text-electric-pair-inhibit (char)
-  ;; Account for buffer-end weirdness
-  (unless (eq (following-char) 0)
+  ;; Account for buffer-end weirdness AND array access with square brackets
+  (unless (or (eq (following-char) 0) (eq (char-before) ?\[))
     (or
      ;; (electric-pair-inhibit-if-helps-balance char)
      ;; TODO This logic isn't quite right, check out how
